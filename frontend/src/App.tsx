@@ -1,8 +1,12 @@
-import LandingPage from "./pages/Landingpage"
+import LandingPage from "./pages/LandingPage";
+import MenuTopBar from "./layouts/header/MenuTopBar";
 
 function App() {
   return (
-    <LandingPage></LandingPage>
+    <>
+    <MenuTopBar />
+    <LandingPage />
+    </>
   )
 }
 
