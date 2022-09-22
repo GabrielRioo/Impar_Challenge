@@ -30,13 +30,8 @@ del {
 	text-decoration:line-through;
 }
 hr {
-	background:transparent;
-	border:0;
-	clear:both;
-	color:transparent;
-	height:1px;
-	margin:0;
-	padding:0;
+    margin: 32px;
+    opacity: .5;
 }
 mark {
 	background-color:#ffffb3;

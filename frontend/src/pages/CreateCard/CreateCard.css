@@ -1,0 +1,86 @@
+section#create_card {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.7);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+#create_card_content {
+    width: calc(642px - 35px);
+    height: 100%;
+
+    background-color: var(--cor-branco);
+    float: right;
+    opacity: 1;
+}
+
+div#create_card_header {
+    display: flex;
+    align-items: center;
+
+    margin: 32px 32px 0 32px;
+}
+
+div#create_card_header h1 {
+    font-weight: 600;
+    margin-left: 18px;
+}
+
+form#create_card_form {
+    display: flex;
+    flex-direction: column;
+}
+
+form#create_card_form label, form#create_card_form input {
+    margin: 0px 32px;
+}
+
+form#create_card_form label {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 11px;
+}
+
+form#create_card_form input {
+    margin-bottom: 50px;
+}
+
+/* form#create_card_form div.upload_file {
+    border: 1px solid #ccc;
+    margin: 0 32px;
+    border-radius: 8px;
+    display: flex;
+} */
+
+/* form#create_card_form div.upload_file input {
+    margin: 0;
+    font-size: 18px;
+    
+} */
+/* 
+input[type="file"] {
+    width: 80%;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #FD8907;
+    margin-left: 10px;
+    float: right;
+} */
+
+form#create_card_form button {
+    align-self: flex-end;
+
+    margin: 0px 32px;
+}

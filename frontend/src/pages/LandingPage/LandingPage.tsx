@@ -1,6 +1,7 @@
 import './LandingPage.css'
 import CardComponent from '../../components/Card/CardComponent';
 import ButtonComponent from '../../components/Button/ButtonComponent';
+import CreateCard from '../CreateCard/CreateCard';
 
 function LandingPage() {
     return(
@@ -13,7 +14,7 @@ function LandingPage() {
             <CardComponent />
 
             {/* se clicar no botao novo card... */}
-
+            <CreateCard />
         </main>
     )
 }
