@@ -14,3 +14,20 @@ button.btn_medium {
 
     cursor: pointer;
 }
+
+button.btn_medium_outset {
+    background: var(--cor-branco);
+    color: var(--cor-destaque);
+
+    border: 1px solid var(--cor-destaque);
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px #92207242;
+
+    width: 173px;
+    height: 48px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+}

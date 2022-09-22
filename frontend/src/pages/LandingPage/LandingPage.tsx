@@ -14,7 +14,7 @@ function LandingPage() {
             <CardComponent />
 
             {/* se clicar no botao novo card... */}
-            <CreateCard />
+            {/* <CreateCard /> */}
         </main>
     )
 }

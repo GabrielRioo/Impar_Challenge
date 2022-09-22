@@ -32,9 +32,9 @@ function CreateCard() {
 
                     <label>Inclua uma imagem para aparecer no card</label>
                     <input id="file_input" type="file" style={{ display: 'none' }} />
-                    <div>
-                        {/* <ButtonComponent id=""size="medium" text="Criar card" /> */}
-                        <button id="upload_file" className='btn_medium' onClick={handleUploadFile}></button>
+                    <div id="upload_file" onClick={handleUploadFile}>
+                        <p>Nenhum arquivo selecionado</p>
+                        <ButtonComponent size="medium_outset" text="Escolher Arquivo"/>
                     </div>
 
                     <hr />
