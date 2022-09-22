@@ -1,0 +1,50 @@
+.card_content {
+    background: var(---cor-branco);
+    width: 234px;
+    height: 267px;
+
+    border: 1px solid #E4E4E4;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px #E5E5E5;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    
+}
+
+hr.card_linha {
+
+}
+
+p.card_text {
+    align-self: center;
+    text-align: center;
+    color: #263238;
+    margin: 30px 22px;
+}
+
+div.card_buttons {
+    width: 100%;
+}
+
+div.card_buttons button {
+    width: 50%;
+    height: 43px;
+
+    border: none;
+    box-shadow: inset 0px 3px 6px #0000000F;
+    color: #263238;
+    opacity: 0.52;
+}
+
+div.card_buttons button:nth-child(1){
+    border-radius: 0px 0px 0px 8px;
+    border-right: 1px solid #E4E4E4;
+}
+
+div.card_buttons button:nth-child(2){
+    border-radius: 0px 0px 8px 0px;
+    border-left: 1px solid #E4E4E4;
+}

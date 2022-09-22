@@ -1,0 +1,11 @@
+:root {
+    --cor-primaria: #5F1478;
+    --cor-secundaria: #AE276F;
+    --cor-branco: #FFFFFF;
+    --cor-destaque: #E76316;
+}
+
+body {
+    background-color: #F6F4F6;
+    font-family: Arial, Helvetica, sans-serif;
+}

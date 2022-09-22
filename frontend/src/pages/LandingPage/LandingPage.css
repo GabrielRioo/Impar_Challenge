@@ -1,0 +1,20 @@
+body main#main_content {
+    width: 85%;
+
+    margin: 40px auto;
+}
+
+main#main_content h1 {
+    font-size: 25pt;
+    font-weight: 500;
+
+    color: var(--cor-primaria);
+}
+
+main#main_content div#new_card_content {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 40px auto;
+}
+

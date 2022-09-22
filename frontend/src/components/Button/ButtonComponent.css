@@ -1,0 +1,16 @@
+button.btn_medium {
+    background: var(--cor-destaque);
+    color: var(--cor-branco);
+
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px #92207242;
+
+    width: 173px;
+    height: 48px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
