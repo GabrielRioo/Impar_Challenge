@@ -3,6 +3,8 @@
     --cor-secundaria: #AE276F;
     --cor-branco: #FFFFFF;
     --cor-destaque: #E76316;
+    --cor-erro: #DB2525;
+    --cor-texto: #454545;
 }
 
 body {

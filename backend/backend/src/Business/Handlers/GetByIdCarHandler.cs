@@ -25,7 +25,7 @@ namespace backend.src.Business.Handlers
                 Payload = new CarResponseItem {
                     Id = car.Id.Value,
                     Name = car.Name,
-                    PhotoId = car.Photo,
+                    //PhotoId = car.Photo,
                     Status = car.Status
                 }
             };

@@ -29,7 +29,7 @@ namespace backend.src.Database.Repositories
             {
                 // Criar um novo ID e salvar no banco de dados
                 entity.Id = Guid.NewGuid();
-                entity.Photo = Guid.NewGuid();
+                //entity.Photo.Id = Guid.NewGuid();
                 _db.Cars?.Add(entity);
             }
 

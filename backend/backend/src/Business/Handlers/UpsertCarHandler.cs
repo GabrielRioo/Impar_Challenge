@@ -42,7 +42,7 @@ namespace backend.src.Business.Handlers
             }
 
             entity.Name = request.Name;
-            entity.Photo = Guid.NewGuid();
+            //entity.Photo = Guid.NewGuid();
             entity.Status = request.Status;
             
             _repository.Save(entity);

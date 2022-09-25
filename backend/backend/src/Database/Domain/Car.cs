@@ -8,7 +8,7 @@ namespace backend.src.Database.Domain
         [Key]
         public Guid? Id { get; set; }
         [ForeignKey("PhotoFK")]
-        public Guid Photo { get; set; }
+        public Photo? Photo { get; set; }
         public string? Name { get; set; }
         public bool Status { get; set; }
     }

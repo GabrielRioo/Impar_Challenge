@@ -1,4 +1,4 @@
-using backend.src.Business.Response;
+﻿using backend.src.Business.Response;
 using backend.src.Database.Repositories;
 
 namespace backend.src.Business.Handlers
@@ -16,7 +16,6 @@ namespace backend.src.Business.Handlers
                 .Select(x => new CarResponseItem {
                     Id = x.Id.Value,
                     Name = x.Name,
-                    PhotoId = x.Photo,
                     Status = x.Status
                 })
                 .ToList();

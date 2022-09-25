@@ -1,4 +1,4 @@
-using backend.src.Api;
+﻿using backend.src.Api;
 using backend.src.Business.Handlers;
 using backend.src.Business.Validators;
 using backend.src.Database;
@@ -45,6 +45,14 @@ app.MapGraphQL("/graphql");
 //app.UseHttpsRedirection();
 
 // app.UseAuthorization();
+
+app.UseCors(options =>
+{
+    options.AllowAnyHeader()
+           .AllowAnyMethod()
+           .SetIsOriginAllowed(origin => true)
+           .AllowCredentials();
+});
 
 app.MapControllers();
 

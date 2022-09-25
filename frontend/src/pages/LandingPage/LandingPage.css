@@ -4,7 +4,7 @@ body main#main_content {
     margin: 40px auto;
 }
 
-main#main_content h1 {
+main#main_content h1.title {
     font-size: 25pt;
     font-weight: 500;
 
@@ -18,3 +18,8 @@ main#main_content div#new_card_content {
     margin: 40px auto;
 }
 
+main#main_content div.cards_container {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 20% 20% 20% 20%;
+}
