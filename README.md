@@ -6,5 +6,6 @@
 
 ## Para Rodar o Backend
 * Acessar a pasta backend/backend
-* Rodar o comando no terminal do nuget: Update-Database
+* No CMD/Prompt: `sqllocaldb create "Local"`
+* Rodar o comando no terminal do nuget: `Update-Database`
 * Rodar o Programa.
